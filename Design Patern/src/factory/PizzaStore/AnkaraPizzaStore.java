@@ -15,16 +15,4 @@ public class AnkaraPizzaStore extends PizzaStore {
 
     }
 
-    @Override
-    public void orderPizza(String type) {
-
-        Pizza pizza=createPizza(type);
-        pizza.prepare();
-        pizza.bake();
-        pizza.cut();
-        pizza.box();
-
-
-
-    }
 }
