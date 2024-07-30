@@ -3,7 +3,9 @@ package strategyPatern.Game;
 public abstract class Character {
     WeaponBehavior weaponBehavior;
 
-
+public Character(WeaponBehavior weaponBehavior){
+    this.weaponBehavior=weaponBehavior;
+}
 
     public abstract void fight();
 

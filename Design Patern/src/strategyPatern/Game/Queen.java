@@ -3,8 +3,9 @@ package strategyPatern.Game;
 public class Queen extends Character{
 
 
-    Queen(){
-        weaponBehavior=new KnifeBehavior();
+    Queen(WeaponBehavior weaponBehavior){
+        super(weaponBehavior);
+
     }
 
     @Override
