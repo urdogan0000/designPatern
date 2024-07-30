@@ -1,4 +1,4 @@
-package strategyPatern;
+package strategyPatern.SimpleDuck;
 
 public class Quack implements QuackBehavior {
     @Override
